@@ -1,7 +1,8 @@
+// import * as z from 'zod';
+// import { zodResolver } from '@hookform/resolvers/zod';
+// import { useForm } from 'react-hook-form';
+import { Form } from '@/components/custom/form';
 import './App.css';
-import { Button } from '@/components/ui/button';
-import { Button as StoriesButton } from '@/stories/Button';
-import { Warning } from '@/stories/Button.stories';
 
 /**
  * VERIFICAR COMO CRIAR UM FORM
@@ -9,13 +10,26 @@ import { Warning } from '@/stories/Button.stories';
  * ADICIONAR SCHEMA
  * CONSTRUIR FORM - DEFINIR FORM
  */
+// const formSchema = z.object({
+//   username: z.string().min(2).max(50)
+// });
 
 function App() {
+  // // 1. Define your form.
+  // const form = useForm<z.infer<typeof formSchema>>({
+  //   resolver: zodResolver(formSchema),
+  //   defaultValues: {
+  //     username: ''
+  //   }
+  // });
+
+  // // 2. Define a submit handler.
+  // const onSubmit = (values: z.infer<typeof formSchema>) => {
+  //   console.log(values);
+  // };
   return (
     <>
-      <h1>AAAAAAAAAaa</h1>
-      <Button variant={'outline'}>Click me</Button>
-      <StoriesButton {...Warning.args} />
+      <Form />
     </>
   );
 }
