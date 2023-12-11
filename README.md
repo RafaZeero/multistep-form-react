@@ -1,14 +1,14 @@
 # Passo a passo
 
-- [ ] Explorar documentações
-  - [ ] Storybook
-  - [ ] Shadcn
-- [ ] Instalar dependências necessárias
-- [ ] Acompanhar os guias de iniciante nas documentações:
-  - [ ] Storybook
-  - [ ] Shadcn
-- [ ] Iniciar componentização do projeto
-- [ ] Layout v0
+- [x] Explorar documentações
+  - [x] Storybook
+  - [x] Shadcn
+- [x] Instalar dependências necessárias
+- [x] Acompanhar os guias de iniciante nas documentações:
+  - [x] Storybook
+  - [x] Shadcn
+- [x] Iniciar componentização do projeto
+- [x] Layout v0
 - [ ] Form shadcn
   - [ ] Step 1
     - [ ] First name + Last name + Age
